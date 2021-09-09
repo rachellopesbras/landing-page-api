@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_section_abouts",
+  "info": {
+    "name": "SectionAbout",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "titleAbout": {
+      "type": "string",
+      "required": true
+    },
+    "descriptionAbout": {
+      "type": "richtext"
+    },
+    "imageAbout": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

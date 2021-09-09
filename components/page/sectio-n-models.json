@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_sectio_n_models",
+  "info": {
+    "name": "SectioNModels",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "module": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.module",
+      "required": true,
+      "max": 6,
+      "min": 2
+    }
+  }
+}

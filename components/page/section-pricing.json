@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_section_pricings",
+  "info": {
+    "name": "SectionPricing",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "integer",
+      "required": true
+    },
+    "qtdParcelas": {
+      "type": "integer",
+      "required": true
+    },
+    "benefits": {
+      "type": "richtext",
+      "default": "Faça uma lista de benefícios",
+      "required": true
+    },
+    "buttonPricing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    },
+    "precoPorParcela": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

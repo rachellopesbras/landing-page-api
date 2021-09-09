@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_section_reviews",
+  "info": {
+    "name": "sectionReviews",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.reviews",
+      "required": true,
+      "min": 2
+    }
+  }
+}

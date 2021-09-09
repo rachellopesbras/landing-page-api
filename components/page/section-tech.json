@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_section_teches",
+  "info": {
+    "name": "SectionTech",
+    "icon": "user-secret",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTech": {
+      "type": "string",
+      "required": true
+    },
+    "iconTech": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.icon-tech",
+      "required": true,
+      "max": 10,
+      "min": 5
+    }
+  }
+}
